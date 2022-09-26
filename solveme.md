@@ -62,3 +62,9 @@ transaction_hash = web3.toHex(tx_hash)
 tx_receipt = web3.eth.wait_for_transaction_receipt(transaction_hash)
 print(tx_receipt['status'])
 ```
+
+### Flag : 
+
+```json
+{"flag":"DUCTF{muM_1_did_a_blonkchain!}"}
+```
